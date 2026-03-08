@@ -98,7 +98,7 @@ function extractScripts(html: string, baseURL: string): string[] {
     }
   }
 
-  return [...new Set(scripts)];
+  return Array.from(new Set(scripts));
 }
 
 // --------------- Meta Tag Extraction ---------------
