@@ -149,7 +149,7 @@ export default function HomePage() {
           <div>
             Made from kerala ❤️ ,{" "}
             <a href="https://nihannajeeb.in" target="_blank" rel="noopener noreferrer" className="hover:text-text-primary transition-colors underline decoration-bg-border underline-offset-4">
-              link to nihannajeeb.in
+              nihannajeeb.in
             </a>
           </div>
         </footer>
