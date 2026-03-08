@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-bg-border/50 backdrop-blur-xl">
@@ -8,7 +9,7 @@ export default function Navbar() {
         style={{ backgroundColor: "rgba(8,10,15,0.8)" }}
       >
         {/* Logo */}
-        <div className="flex items-center gap-2.5">
+        <Link href="/" className="flex items-center gap-2.5 cursor-pointer">
           <div
             className="w-7 h-7 rounded-lg flex items-center justify-center text-sm font-bold"
             style={{
@@ -21,7 +22,7 @@ export default function Navbar() {
           <span className="font-display font-bold text-text-primary">
             Build<span className="text-accent-cyan">Stack</span>
           </span>
-        </div>
+        </Link>
 
         {/* Nav links */}
         <nav className="hidden md:flex items-center gap-6 text-sm text-text-secondary">
