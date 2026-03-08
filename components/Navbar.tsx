@@ -29,7 +29,7 @@ export default function Navbar() {
           <a href="#" className="hover:text-text-primary transition-colors">Docs</a>
           <a href="#" className="hover:text-text-primary transition-colors">API</a>
           <a
-            href="https://github.com"
+            href="https://github.com/nihan2010/BuildStack"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-text-primary transition-colors"
@@ -39,11 +39,14 @@ export default function Navbar() {
         </nav>
 
         {/* CTA */}
-        <button
+        <a
+          href="https://github.com/nihan2010/BuildStack"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-semibold border border-bg-border text-text-secondary hover:border-accent-cyan/30 hover:text-accent-cyan transition-all duration-200"
         >
           <span>★</span> Star on GitHub
-        </button>
+        </a>
       </div>
     </header>
   );
