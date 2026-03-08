@@ -144,8 +144,14 @@ export default function HomePage() {
 
       {/* Footer */}
       {state === "idle" && (
-        <footer className="border-t border-bg-border py-6 text-center text-xs text-text-muted font-mono">
-          BuildStack · Open source tech stack analyzer · Built with Next.js
+        <footer className="border-t border-bg-border py-6 text-center text-xs text-text-muted font-mono flex flex-col gap-2">
+          <div>BuildStack · Open source tech stack analyzer · Built with Next.js</div>
+          <div>
+            Made from kerala with love ❤️ ,{" "}
+            <a href="https://nihannajeeb.in" target="_blank" rel="noopener noreferrer" className="hover:text-text-primary transition-colors underline decoration-bg-border underline-offset-4">
+              link to nihannajeeb.in
+            </a>
+          </div>
         </footer>
       )}
     </div>
